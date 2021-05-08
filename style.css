@@ -1,0 +1,281 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0%; padding: 0%; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+header{
+    width: 100%; height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("Fig. 1- The Taj Mahal. Photo by Rachita Jain_0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%; height: 10vh;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    display: flex; justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+ 
+ 
+  
+}
+
+
+nav .manu{
+    width: 40%; display: flex; justify-content: space-around;
+
+}
+nav .manu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav .manu a:first-child{
+    color: #00b894;
+}
+
+
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex; justify-content:center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+section{
+
+}
+
+section h3{
+    font-size: 35px; font-weight: 400; letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+    margin: 30px 0px 20px 0px;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+   /* text-shadow: 1px 1px 2px black;*/
+}
+section a{
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition: 0.7s;
+
+}
+section .btnone{
+    background: #fff;
+    color: #000;
+}
+.btnone:hover{
+    background: #00b894;
+    color: #fff;
+}
+section .btntow{
+    background: #00b894;
+    color: #fff;
+}
+.btntow:hover{
+    background: #fff;
+    color: #00b894;;
+}
+
+
+
+
+/*--------new-------------------------------------------*/
+
+
+.sen {
+    color: white;
+    float: left;
+    margin-right: 2%;
+  }
+  
+  .logo {
+    background-color: black;
+    height: 95px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .manu {
+    background-color: red;
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, .9) 25%,
+        rgba(0, 0, 0, .1) 50%,
+        rgba(0, 0, 0, .9) 75%);
+    color: white;
+    height: 100%;
+    width: 20%;
+    display: flex;justify-content: center;align-items: center;
+  
+    -webkit-animation: 4s linear 0s infinite alternate move_eye;
+            animation: 4s linear 0s infinite alternate move_eye;
+  }
+  
+  @-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+          @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+
+
+/*--------------box------------------*/
+
+.box div{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 6px solid rgb(111, 0, 255);
+    
+}
+
+.box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5){
+    top: 67%;
+    left: 10%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(6){
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(7){
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+.box div:nth-child(8){
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}
+.box div:nth-child(9){
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(10){
+    top: 80%;
+    left: 20%;
+    animation: animate 5s linear infinite;
+}
+
+.box div:nth-child(11){
+    top: 35%;
+    left: 10%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(12){
+    top: 12%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+.box div:nth-child(13){
+    top: 50%;
+    left: 40%;
+    animation: animate 3s linear infinite;
+}
+.box div:nth-child(14){
+    top: 30%;
+    left: 90%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(15){
+    top: 90%;
+    left: 90%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(16){
+    top: 40%;
+    left: 70%;
+    animation: animate 4s linear infinite;
+}
+.box div:nth-child(17){
+    top: 50%;
+    left: 20%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(18){
+    top: 90%;
+    left: 50%;
+    animation: animate 11s linear infinite;
+}
+.box div:nth-child(19){
+    top: 68%;
+    left: 32%;
+    animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(20){
+    top: 40%;
+    left: 50%;
+    animation: animate 11s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+
+   100%{
+        transform: scale(1.0) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+}
