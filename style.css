@@ -1,0 +1,265 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* -----------header------ */
+.navicationber{
+    margin: auto;
+    text-align: center;
+}
+.header{
+    color: #3498db;
+    margin-top: 10px;
+}
+.navber{
+    
+}
+.navber ul{
+    
+}
+.navber ul li{
+    display: inline-block;
+}
+.navber ul li a{
+    padding: 10px 15px;
+    background: #3498db;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+    position: relative;
+}
+.navber ul li a:before{
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 0%;
+    height: 8%;
+    background: black;
+    transition: 0.5s;
+}
+.navber ul li a:hover:before{
+    background: linear-gradient(40deg, rgba(114, 8, 148, 1),rgb(25, 172, 240),rgba(191, 240, 16, 1));
+    width: 80%;
+}
+.navber ul li a:hover{
+    background: #fff;
+    color:black;
+}
+/* ---------banner-------- */
+.banner{
+    background: url(./img/Cheeseburger_Sliders_Resize_2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.texts{
+    text-align: center;
+    margin: auto;
+    padding: 100px 0px;
+}
+.texts h1{
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    font-size:50px ;
+    color: #fff;
+    padding: 50px 0px;
+    cursor: pointer;
+   transition: .5s;
+}
+.texts h1:hover{
+    transform: scale(1.50);
+    color: rgba(13, 148, 8, 0.993);
+}
+.texts P{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: -50px;
+}
+.btns{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    padding: 20px 0px;
+    margin-bottom: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(175, 77, 240, 0.945);
+    transform: translateY(-0px);
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+}
+.btns:hover{
+    transform: translateY(-30px);
+    color: #fff;
+}
+.btns::before{
+    content: "";
+    position: absolute;
+    bottom: 00%;
+    left: 0%;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #fff;
+}
+.btns:hover::before{
+    height: 100%;
+    background: linear-gradient( 40deg,rgba(8, 173, 158, 1),rgba(99, 8, 173, 1),rgba(97, 41, 240, 1));
+    color: #fff;
+}
+/* ---------gallary--------- */
+.gallary{
+    padding: 100px 0px;
+    text-align: center;
+}
+.box1{
+    width: 400px;
+    margin-right: 20px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+ img{
+    max-width: 100%;
+height: auto;
+}
+.box2a img {
+    width: 400px;
+    height: 300px;
+    transition: 0.5s;
+    
+}
+.box2a img:hover{
+    transform: translate(-50px,50px);
+}
+.box21{
+    overflow: hidden;
+    width: 400px;
+}
+.box21 img{
+    transition: 0.5s;
+    
+}
+.box21 img:hover{
+    transform: scale(2);
+}
+.box22{
+    overflow: hidden;
+    width: 400px;
+}
+.box22 img{
+    transition: 0.5s;
+    
+}
+.box22 img:hover{
+    transform: rotate(360deg) scale(2);
+}
+/* -------mai-about---------- */
+.mai-about{
+    padding: 20px 0px;
+}
+.about{
+    padding: 50px 0px;
+   
+}
+.about h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    position: relative;
+    cursor: pointer;
+}
+.about h2::before {
+    content: "";
+    position: absolute;
+    top: 115%;
+    left: 40%;
+    width: 0%;
+    border-radius: 10px;
+    height: 10%;
+    background: #3498db;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.about h2:hover::before{
+    width: 20%;
+}
+.scale-img{
+    width: 400px;
+    height:300px;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 50%;
+    position: relative;
+}
+.scale-img img{
+    border-radius: 50%;
+}
+.scale-img::before{
+    content: "";
+    position: absolute;
+    top: -5%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: url(./img/Cheesy-Turkey-Sliders-6-sm.jpg);
+    transform: translate(0px,0px) rotate(0deg);
+    transition: 0.5s;
+}
+.scale-img:hover::before{
+    transform: translate(-50px,200px) rotate(60deg);
+}
+/* -----------banner1--------- */
+.banner1{
+    overflow: hidden;
+    padding: 50px 0px;
+}
+.banner1 figure{
+    position: relative;
+    width: 500%;
+    margin: 0%;
+    left: 0%;
+    animation: 20s banner1 infinite !important;
+}
+.banner1 figure img{
+    width: 20%;
+    float: left;
+    height: 80vh;
+}
+@keyframes banner1{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    75%{
+        left: -200%;
+    }
+}
+/* ------------footer------- */
+.footer{
+    background: #34495e;
+}
+.footer p{
+    padding: 20px 0px;
+    color: #fff;
+}
